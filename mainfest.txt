@@ -1,0 +1,3 @@
+Main-Class: App
+Class-Path: lib\bson-4.11.0.jar lib\mongodb-driver-core-4.11.0.jar lib\mongodb-driver-sync-4.11.0.jar lib\mongodb-jdbc-2.2.3-all.jar
+
