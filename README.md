@@ -1,18 +1,120 @@
-## Getting Started
+# 🍽️ Restaurant Billing System
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A desktop-based **Restaurant Billing System** developed using **Java Swing** and **MongoDB**. The application helps restaurants manage food items, process customer orders, generate bills, save incomplete orders, and retrieve them later.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📌 Features
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* 🔐 User Login System
+* 🍕 Add, Update, and Delete Food Items
+* 🔍 Search Food by Name, Category, and Price
+* 🛒 Customer Order Management
+* 🧾 Bill Generation
+* 💾 Save Incomplete Orders
+* 🔄 Retrieve Saved Orders Using Mobile Number
+* 🖨️ Print and Store Bills in MongoDB
+* 📊 View Total Orders
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🛠️ Technologies Used
 
-## Dependency Management
+* Java
+* Java Swing
+* MongoDB
+* MongoDB Java Driver
+* VS Code
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📂 Project Structure
+
+```
+Restaurant_Billing/
+│
+├── src/                  # Java source files
+├── lib/                  # MongoDB driver libraries
+├── bin/                  # Compiled class files
+├── .vscode/              # VS Code configuration
+├── SRS/                  # Software Requirement Specification
+├── README.md
+└── manifest.txt
+```
+
+---
+
+## ⚙️ Prerequisites
+
+* Java JDK 17 or above
+* MongoDB Server
+* VS Code (Recommended)
+
+---
+
+## ▶️ How to Run
+
+Compile the project:
+
+```bash
+javac -cp "lib/*" -d bin src/*.java
+```
+
+Run the application:
+
+```bash
+java -cp "lib/*;bin" App
+```
+
+---
+
+## 🗄️ Database
+
+### Database: `FoodDB`
+
+Collection:
+
+* `Foods`
+
+### Database: `BillingSystem`
+
+Collections:
+
+* `Bills`
+* `SavedOrders`
+
+---
+
+## 📸 Main Modules
+
+* Login
+* Food Management
+* Order Section
+* Billing Section
+* Saved Order Retrieval
+* Total Orders
+
+---
+
+## 🚀 Future Enhancements
+
+* PDF Bill Export
+* GST Calculation
+* Sales Dashboard
+* Inventory Management
+* Employee Management
+* Customer Loyalty Program
+
+---
+
+## 👨‍💻 Developer
+
+**Rachit Bhardwaj**
+
+B.Tech Computer Science & Engineering
+
+---
+
+## 📄 License
+
+This project is created for educational and learning purposes.
