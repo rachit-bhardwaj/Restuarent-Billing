@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Billing System
 
-A desktop-based **Restaurant Billing System** developed using **Java Swing** and **MongoDB**. The application helps restaurants manage food items, process customer orders, generate bills, save incomplete orders, and retrieve them later.
+A desktop-based **Restaurant Billing System** developed using **Java Swing** and **MongoDB**. The application helps restaurants manage food items, process customer orders, generate bills, and store orders.
 
 ---
 
@@ -11,9 +11,7 @@ A desktop-based **Restaurant Billing System** developed using **Java Swing** and
 * 🔍 Search Food by Name, Category, and Price
 * 🛒 Customer Order Management
 * 🧾 Bill Generation
-* 💾 Save Incomplete Orders
-* 🔄 Retrieve Saved Orders Using Mobile Number
-* 🖨️ Print and Store Bills in MongoDB
+* 🖨️ Store Bills in MongoDB
 * 📊 View Total Orders
 
 ---
@@ -28,21 +26,6 @@ A desktop-based **Restaurant Billing System** developed using **Java Swing** and
 
 ---
 
-## 📂 Project Structure
-
-```
-Restaurant_Billing/
-│
-├── src/                  # Java source files
-├── lib/                  # MongoDB driver libraries
-├── bin/                  # Compiled class files
-├── .vscode/              # VS Code configuration
-├── SRS/                  # Software Requirement Specification
-├── README.md
-└── manifest.txt
-```
-
----
 
 ## ⚙️ Prerequisites
 
@@ -87,23 +70,24 @@ Collections:
 
 ## 📸 Main Modules
 
-* Login
-* Food Management
-* Order Section
-* Billing Section
-* Saved Order Retrieval
-* Total Orders
+* Login -> Login, Registration, Forgot, PasswordUtils
+* Food Management -> Main, Change
+* Order & Billing Section -> Order, Billing, SaveOrder
+* Total Orders -> Total
+* Admin Section -> Admin, Adminmain, Adminchange, AdminTotal, Employee
 
 ---
+## 🚀Admin Login
 
+* Username: rachit
+* Password: 12345
+
+---
 ## 🚀 Future Enhancements
 
 * PDF Bill Export
 * GST Calculation
 * Sales Dashboard
-* Inventory Management
-* Employee Management
-* Customer Loyalty Program
 
 ---
 
