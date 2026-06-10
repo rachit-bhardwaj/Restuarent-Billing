@@ -87,7 +87,7 @@ public class Admin {
 
         totalbutton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                new Total();
+                new AdminTotal();
                 frame.dispose();
             }
         });
