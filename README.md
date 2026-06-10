@@ -77,7 +77,7 @@ Collections:
 * Admin Section -> Admin, Adminmain, Adminchange, AdminTotal, Employee
 
 ---
-## 🚀Admin Login
+## Admin Login
 
 * Username: rachit
 * Password: 12345
