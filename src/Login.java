@@ -146,7 +146,7 @@ public class Login {
 
                 // Admin Check
 
-                if (username.equals("rachit") && password.equals("967554")) {
+                if (username.equals("rachit") && password.equals("12345")) {
                     new Admin();
                     frame.dispose();
                     JOptionPane.showMessageDialog(frame, "Admin login successful!");
