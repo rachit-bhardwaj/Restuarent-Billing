@@ -2,6 +2,14 @@
 
 A desktop-based **Restaurant Billing System** developed using **Java Swing** and **MongoDB**. The application helps restaurants manage food items, process customer orders, generate bills, and store orders.
 
+![Java](https://img.shields.io/badge/Java-JDK%2024-orange)
+![GUI](https://img.shields.io/badge/GUI-Java%20Swing-yellow)
+![Database](https://img.shields.io/badge/Database-MongoDB-green)
+![IDE](https://img.shields.io/badge/IDE-VS%20Code-007ACC)
+![Build](https://img.shields.io/badge/Build-Java-blueviolet)
+![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
+![License](https://img.shields.io/badge/License-Educational-red)
+
 ---
 
 ## 📌 Features
